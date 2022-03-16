@@ -29,3 +29,8 @@ python manage.py migrate
 ```
 python manage.py createsuperuser
 ```
+
+## Running Django Shell
+```
+python manage.py shell
+```
