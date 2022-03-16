@@ -2,9 +2,9 @@
 
 -----------------------------------------------------------------
 
-Learning Log—is an online journal system that lets you keep track of information related to anything.
+Learning Log—is an online journal system that lets you keep track of information about python topics.
 
-- Create new project
+### Creating a new project
 ```
 django-admin startproject project_name .
 ```
@@ -12,12 +12,20 @@ django-admin startproject project_name .
 ```
 python manage.py migrate
 ```
-
 - Run Server
 ```
 python manage.py runserver
 ```
-- Start new application
+- Start new application & run migration
 ```
 python manage.py startapp app_name
+python manage.py makemigrations app_name
+python manage.py migrate
+```
+
+## Django Admin
+### Setting Up a Superuser
+- Run the code in your terminal:
+```
+python manage.py createsuperuser
 ```
